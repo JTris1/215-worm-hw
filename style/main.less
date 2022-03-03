@@ -9,34 +9,42 @@
 
     12.5% {
         transform: scale(.5, 5);
+        transform-origin: top center;
     }
     
     25% {
         transform: scale(1, 1);
+        transform-origin: top center;
     }
     
     37.5% {
         transform: scale(5, .5);
+        transform-origin: left center;
     }
     
     50% {
         transform: scale(1, 1);
+        transform-origin: left center;
     }
 
     62.5% {
         transform: scale(.5, 5);
+        transform-origin: bottom center;
     }
 
     75% {
         transform: scale(1, 1);
+        transform-origin: bottom center;
     }
     
     87.5% {
         transform: scale(5, .5);
+        transform-origin: right center;
     }
     
     100% {
         transform: scale(1, 1);
+        transform-origin: right center;
     }
 }
 
@@ -84,7 +92,7 @@
 }
 
 #worm-wrapper {
-    animation: posWorm 10s infinite;
+    animation: posWorm 12s infinite;
 }
 
 #worm {
@@ -92,5 +100,5 @@
     height: 100px;
     background-color: green;
 
-    animation: scaleWorm 10s infinite;
+    animation: scaleWorm 12s infinite;
 }
